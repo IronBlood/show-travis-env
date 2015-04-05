@@ -4,5 +4,5 @@ script: ./run.sh
 before_script:
 - git clone https://github.com/bmybbs/bmybbs.git
 - sudo mkdir -p /home/bbs/bin
-- (cd bmybbs; git checkout feature/bmyapp; cd ythtlib; sudo make install; cd ../libythtbbs; make install)
+- (cd bmybbs; git checkout feature/bmyapp; cd ythtlib; sudo make install; cd ../libythtbbs; sudo make install)
 
